@@ -9,6 +9,7 @@ alias ggrep="git grep"
 
 # AWS
 alias awssh="ssh -i ~/.aws/vrmaroli.pem -l centos"
+alias awscp="scp -i ~/.aws/vrmaroli.pem"
 
 # VM
 alias vmssh="ssh -l root"
