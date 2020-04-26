@@ -1,6 +1,7 @@
 .ssh/
 .aws/
 .bash_history
+mbox
 
 Telegram/
 Desktop/
@@ -19,3 +20,9 @@ monorepo/
 shared-packaging/
 jenkins-pipeline/
 ew-aas/
+cloud-deployer/
+dash.js/
+ew-system-design/
+infra/
+orc/
+problemsolving/

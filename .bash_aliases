@@ -19,3 +19,10 @@ alias vmgrep="vm list | grep"
 alias cdm="cd /home/vrmaroli/monorepo/"
 alias cds="cd /home/vrmaroli/monorepo/src/"
 alias cdp="cd /home/vrmaroli/monorepo/products/"
+
+# Kubernetes
+alias k="kubectl"
+
+# Bash complete aliases
+source ~/bash_completion.sh
+complete -F _complete_alias k
