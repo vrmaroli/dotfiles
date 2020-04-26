@@ -1,5 +1,8 @@
 .ssh/
 .aws/
+.azure/
+.gnupg/
+.gnupg/
 .bash_history
 mbox
 
