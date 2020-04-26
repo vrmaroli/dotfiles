@@ -1,1 +1,3 @@
 # dotfiles
+
+- Merge `.bashrc` carefully.
