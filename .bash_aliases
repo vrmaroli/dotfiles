@@ -1,6 +1,9 @@
 # Simple
 alias ll="ls -al"
 
+# Atom
+alias a="atom"
+
 # Git
 alias gits="git status"
 alias gitd="git difftool"
@@ -21,8 +24,4 @@ alias cds="cd /home/vrmaroli/monorepo/src/"
 alias cdp="cd /home/vrmaroli/monorepo/products/"
 
 # Kubernetes
-alias k="kubectl"
-
-# Bash complete aliases
-source ~/bash_completion.sh
-complete -F _complete_alias k
+source ~/.kube_aliases
