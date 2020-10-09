@@ -1,5 +1,6 @@
 # Simple
-alias ll="ls -al"
+alias ls="ls -G"
+alias ll="ls -alG"
 
 # Atom
 alias a="atom"
