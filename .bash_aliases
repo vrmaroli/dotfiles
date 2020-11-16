@@ -24,5 +24,8 @@ alias cdm="cd /home/vrmaroli/monorepo/"
 alias cds="cd /home/vrmaroli/monorepo/src/"
 alias cdp="cd /home/vrmaroli/monorepo/products/"
 
+# Date
+alias date-utc="date -u +'%Y-%m-%d %H:%M:%S'"
+
 # Kubernetes
 source ~/.kube_aliases
