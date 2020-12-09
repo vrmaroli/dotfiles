@@ -1,5 +1,8 @@
 # Simple
 alias ll="ls -al"
+alias please="sudo"
+source ~/bash_completion.sh
+complete -F _complete_alias please 
 
 # Atom
 alias a="atom"
@@ -18,10 +21,8 @@ alias awscp="scp -i ~/.aws/vrmaroli.pem"
 alias vmssh="ssh -l root"
 alias vmgrep="vm list | grep"
 
-# CD
-alias cdm="cd /home/vrmaroli/monorepo/"
-alias cds="cd /home/vrmaroli/monorepo/src/"
-alias cdp="cd /home/vrmaroli/monorepo/products/"
-
 # Kubernetes
 source ~/.kube_aliases
+
+# Date
+logTimeStamp="date -u +\"%F %T\""
