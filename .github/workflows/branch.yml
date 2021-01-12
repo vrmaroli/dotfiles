@@ -1,8 +1,0 @@
-name: Branch protection
-on: [push]
-jobs:
-  branch-protection:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Dummy action to ensure branch is up-to-date
-        run: echo hi dummy!
