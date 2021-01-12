@@ -119,4 +119,3 @@ esbmake() {
     )
 }
 
-export AWS_PROFILE=streampilot-dev
